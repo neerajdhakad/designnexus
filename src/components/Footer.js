@@ -17,18 +17,18 @@ export default () => (
              to tie your style with their design expertise, creating 
              the perfect interior design concept.</p>
           </div>
-          <div className='link-call' onClick={()=> window.open("mailto:support@Homekins.com", "_self")}>support@Homekins.com</div>
+          <div className='link-call' onClick={()=> window.open("mailto:designnexus@gmail.com", "_self")}>designnexus@gmail.com</div>
         </div>
       </div>
       <div className='col-md-2'>
         <div className='footer-col'>
           <div className='heading'>
-            Usefull link
+            Useful link
           </div>
           <div className='content'>
              <div className='link'>Frequently Asked</div>
-             <div className='link'>Terms & Conditions</div>
-             <div className='link'>Help Center</div>
+             <div className='link'>Projects</div> 
+             <div className='link'>Client Reviews</div> 
              <div className='link'>Contact Us</div>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default () => (
     <div className='subfooter'>
       <div className='row m-2-hor'>
         <div className='col-md-6'>
-          <div className='content'>© Copyrights 2020 Homekins All rights reserved.</div>
+          <div className='content'>©Copyrights {new Date().getFullYear()} Design Nexus All rights reserved.</div>
         </div>
       </div>
     </div>

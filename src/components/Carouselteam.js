@@ -79,7 +79,7 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Jhon Doe</div>
+              <div className='name'>Rahul Patel</div>
               <div className='title'>Co-Founder</div>
             </div>
             <div className='icon'>
@@ -104,7 +104,7 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Tomy Doe</div>
+              <div className='name'>Abhishek Patel</div>
               <div className='title'>Co-Founder</div>
             </div>
             <div className='icon'>

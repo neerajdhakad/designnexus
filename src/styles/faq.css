@@ -1,0 +1,15 @@
+/* FAQ Css  */
+.faq-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .question {
+    font-weight: bold;
+  }
+  
+  .answer {
+    padding-top: 10px;
+  }

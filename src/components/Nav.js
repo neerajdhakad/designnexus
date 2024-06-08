@@ -119,7 +119,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
                   <LinkTag>Projects</LinkTag>
               </Page>
               <Page className='mainBtn' variant="about" onClick={() => setLinkHandler("news")}>
-                  <LinkTag>News</LinkTag>
+                  <LinkTag>Client Reviews</LinkTag>
               </Page>
               <Page className='mainBtn' variant="about" onClick={() => setLinkHandler("contact")}>
                   <LinkTag>Contact</LinkTag>
@@ -127,9 +127,9 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           </div>
 
           <div className='info'>
-            <span>(+6221) 000 888 999</span>
-            <span className='link'>support@homekins.com</span>
-            <span>129 Park street, New York 10903</span>
+            <span>+91 9098321487 | 8269521275</span>
+            <span className='link'>designnexus@gmail.com </span>
+            <span>03, Trilanga/Makhanlal Chouraha, Bhopal</span>
           </div>
 
         </Body>

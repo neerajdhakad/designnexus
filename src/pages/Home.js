@@ -13,6 +13,7 @@ import Accomplish from '../components/Accomplish';
 import Carouselnews from '../components/Carouselnews';
 import Footer from '../components/Footer';
 import { Efect, Efect1, Efect2  } from "../styles/effect.styles";
+import FAQ from "../components/Faq";
 
 const Home = ({ history }) => {
   return (
@@ -97,19 +98,23 @@ const Home = ({ history }) => {
 
       <Reveal effect="fadeInUp">
         <Accomplish/>
-      </Reveal>
+      </Reveal> 
 
       <Reveal effect="fadeInUp">
         <section className='container-fluid pt-0'>
           <div className='row m-2-hor'>
             <div className='col-12'>
-              <div className='heading'>Latest News</div>
+              <div className='heading'>Client Testimonials</div>
             </div>
             <div className='col-12'>
               <Carouselnews/>
             </div>
           </div>
         </section>
+      </Reveal>
+
+      <Reveal effect="fadeInUp">
+        <FAQ/>
       </Reveal>
 
       <Footer />
