@@ -80,10 +80,6 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
     };
     }, []);
 
-    const handleLogoClick = () => {
-      navigate("/")
-    };
-
   return (
     <header>
       <div id='header'></div>
@@ -95,9 +91,9 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           style={{ height: "30px", cursor: "pointer" }}
           onClick={() => setLinkHandler("home")}
           />
-      <span className='callus'>
+      {/* <span className='callus'>
         Call Us: +91 8269521275 | 9098321487
-      </span>
+      </span> */}
     </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>
         <Overlaybg open={isOn} shouldAnimate={shouldAnimate} onClick={closeHandler}/>
