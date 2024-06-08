@@ -80,19 +80,25 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
     };
     }, []);
 
+    const handleLogoClick = () => {
+      navigate("/")
+    };
+
   return (
     <header>
       <div id='header'></div>
       <div className='logo'>
         <img
-          src="./img/logowhite.png"
+          src="./img/logowhite.svg"
           className="img-fluid"
           alt="#"
-        />
-        <span className='callus'>
-          Call Us: +91 8269521275 | 9098321487
-        </span>
-      </div>
+          style={{ height: "30px", cursor: "pointer" }}
+          onClick={handleLogoClick}
+          />
+      <span className='callus'>
+        Call Us: +91 8269521275 | 9098321487
+      </span>
+    </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>
         <Overlaybg open={isOn} shouldAnimate={shouldAnimate} onClick={closeHandler}/>
         <Container

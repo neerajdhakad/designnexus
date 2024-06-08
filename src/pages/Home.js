@@ -15,8 +15,6 @@ import Footer from '../components/Footer';
 import { Efect, Efect1, Efect2  } from "../styles/effect.styles";
 
 const Home = ({ history }) => {
-
-
   return (
     <div>
 
@@ -40,7 +38,7 @@ const Home = ({ history }) => {
         <section className='container-fluid'>
           <div className='row m-2-hor'>
             <div className='col-12'>
-              <div className='heading'>Our Expertnesses</div>
+              <div className='heading'>Our Packages</div>
             </div>
             <div className='col-12'>
               <Carouselfeature/>

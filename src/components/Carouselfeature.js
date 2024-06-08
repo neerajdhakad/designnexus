@@ -80,7 +80,7 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Interior</div>
+              <div className='name'>Duplex</div>
               <div className='content'>
                 Make the most of compact spaces with space saving furniture 
                 that are ingenuous and innovative. 
@@ -99,7 +99,7 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Architecture</div>
+              <div className='name'>3 BHK</div>
               <div className='content'>
                 Make the most of compact spaces with space saving furniture 
                 that are ingenuous and innovative. 
@@ -118,7 +118,7 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Exterior</div>
+              <div className='name'>2BHK</div>
               <div className='content'>
                 Make the most of compact spaces with space saving furniture 
                 that are ingenuous and innovative. 
@@ -126,27 +126,7 @@ export default class Responsive extends Component {
                 optimal use of available space.
               </div>
             </div>
-          </CustomSlide>
-
-          <CustomSlide className='itm' index={4}>
-            <div className='bg'>
-              <img
-                src="./img/feature/img4.jpg"
-                className="img-fluid"
-                alt="Imageteam"
-              />
-            </div>
-            <div className='desc'>
-              <div className='name'>Furniture</div>
-              <div className='content'>
-                Make the most of compact spaces with space saving furniture 
-                that are ingenuous and innovative. 
-                Transform your living spaces with interior designs that make 
-                optimal use of available space.
-              </div>
-            </div>
-          </CustomSlide>
-
+          </CustomSlide> 
         </Slider>
       </div>
     );
