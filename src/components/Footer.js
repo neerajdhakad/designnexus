@@ -40,9 +40,8 @@ export default () => (
           </div>
           <div className='content'>
             <div className='link'>Career</div>
-            <div className='link'>Brand Identity</div>
-            <div className='link'>Investment</div>
-            <div className='link'>Agency Patner</div>
+            <div className='link'>Privacy Policy</div>
+            <div className='link'>Terms and Conditions</div>
           </div>
         </div>
       </div>

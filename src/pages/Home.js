@@ -48,7 +48,7 @@ const Home = ({ history }) => {
         </section>
       </Reveal>
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid py-0'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -66,7 +66,7 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
       <Reveal effect="fadeInUp">
         <section className='container-fluid py-0'>

@@ -119,7 +119,7 @@ export default class Responsive extends Component {
               </span>
             </div>
           </CustomSlide>
-
+{/* 
           <CustomSlide className='itm' index={3}>
             <div className='bg'>
               <img
@@ -168,7 +168,7 @@ export default class Responsive extends Component {
                 <i className="fa fa-twitter" aria-hidden="true"></i>
               </span>
             </div>
-          </CustomSlide>
+          </CustomSlide> */}
 
         </Slider>
       </div>

@@ -71,7 +71,7 @@ export default class Responsive extends Component {
           <CustomSlide className="itm" index={1}>
             <div className="bg">
               <img
-                src="./img/news/img1.jpg"
+                src="./img/news/img1.png"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -93,14 +93,14 @@ export default class Responsive extends Component {
           <CustomSlide className="itm" index={2}>
             <div className="bg">
               <img
-                src="./img/news/img2.jpg"
+                src="./img/news/img2.png"
                 className="img-fluid"
                 alt="Imageteam"
               />
             </div>
             <div className="desc">
               <div className="date"> Sept 08, 2020</div>
-              <div className="name">Rashmi Singh</div>
+              <div className="name">Rashmi Patel</div>
               <div className="content">
               "I recently hired Design Nexus for my 2 BHK
                 flat's interior design and furniture work, and I am thrilled
@@ -115,14 +115,14 @@ export default class Responsive extends Component {
           <CustomSlide className="itm" index={3}>
             <div className="bg">
               <img
-                src="./img/news/img3.jpg"
+                src="./img/news/img3.png"
                 className="img-fluid"
                 alt="Imageteam"
               />
             </div>
             <div className="desc">
               <div className="date"> Sept 08, 2020</div>
-              <div className="name">Radhika Mishra</div>
+              <div className="name">Radhika Singh</div>
               <div className="content">
               "I recently hired Design Nexus for my 2 BHK
                 flat's interior design and furniture work, and I am thrilled
@@ -137,7 +137,7 @@ export default class Responsive extends Component {
           <CustomSlide className="itm" index={4}>
             <div className="bg">
               <img
-                src="./img/news/img4.jpg"
+                src="./img/news/img4.png"
                 className="img-fluid"
                 alt="Imageteam"
               />

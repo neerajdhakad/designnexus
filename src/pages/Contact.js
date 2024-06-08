@@ -64,17 +64,17 @@ const Contact = ({ history }) => {
                 <div className='heading'>Our Office</div>
                 <div className='list'>
                   <i className="fa fa-map-marker"></i>
-                  70 Washington Square South New York, NY 10012, United States
+                  03, Trilanga/Makhanlal Chouraha, Bhopal
                 </div>
                 <div className='list'>
                   <i className="fa fa-envelope-o"></i>
                   <a href='mailto:contact_info@homekins.com' target='_blank' rel='noopener noreferrer'>
-                    contact_info@homekins.com
+                  designnexus@gmail.com
                   </a>
                 </div>
                 <div className='list'>
                   <i className="fa fa-phone"></i>
-                  +92 423 567 7
+                  +91 9098321487 | 8269521275
                 </div>
                 </div>
               </div>

@@ -93,7 +93,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           className="img-fluid"
           alt="#"
           style={{ height: "30px", cursor: "pointer" }}
-          onClick={handleLogoClick}
+          onClick={() => setLinkHandler("home")}
           />
       <span className='callus'>
         Call Us: +91 8269521275 | 9098321487

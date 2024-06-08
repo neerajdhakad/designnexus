@@ -54,7 +54,7 @@ const FAQ = () => {
             <div key={index} className='faq-item' onClick={() => handleToggle(index)}>
               <div className='question' >
                 {item.question}
-              <img style={{float:'right'}} src='../../public/img/down-arrow.png' alt="d"/>
+              <img style={{float:'right'}} src='../../public/img/down-arrow.png' alt="v"/>
               </div>
               {openIndex === index && (
                 <div className='answer'>

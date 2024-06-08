@@ -118,7 +118,26 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>2BHK</div>
+              <div className='name'>2 BHK</div>
+              <div className='content'>
+                Make the most of compact spaces with space saving furniture 
+                that are ingenuous and innovative. 
+                Transform your living spaces with interior designs that make 
+                optimal use of available space.
+              </div>
+            </div>
+          </CustomSlide> 
+
+          <CustomSlide className='itm' index={4}>
+            <div className='bg'>
+              <img
+                src="./img/feature/img3.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className='desc'>
+              <div className='name'>Modular Kitchen</div>
               <div className='content'>
                 Make the most of compact spaces with space saving furniture 
                 that are ingenuous and innovative. 
