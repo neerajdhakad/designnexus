@@ -38,9 +38,9 @@ const Contact = ({ history }) => {
       <div className="jumbotron head"/>
 
       <Reveal effect="fadeInUp">
-       <section className='container'>
+       <section className='container mx-3'>
           <div className='row'>
-            <div className='col-12'>
+            <div className='col-12 text-3xl'>
               <h1>Get in touch with us to design <br/>your <span className='color'>dream</span> home</h1>
             </div>
           </div>
@@ -48,12 +48,12 @@ const Contact = ({ history }) => {
       </Reveal>
 
       <Reveal effect="fadeInUp">
-       <section className='container pt-0'>
+       <section className='container pt-0 mx-3'>
           <div className='row'>
             <div className='col-12'>
               <SimpleMap/>
             </div>
-            <div className='col-md-6'>
+            <div className='col-md-6 '>
             <div className="text-side">
               <h3 className="heading">Talk with our expert designers </h3>
               <p>Vestibulum volutpat, lacus a ultrices sagittis, 

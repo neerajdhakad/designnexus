@@ -119,7 +119,7 @@ export default class Responsive extends Component {
               </span>
             </div>
           </CustomSlide>
-{/* 
+{ 
           <CustomSlide className='itm' index={3}>
             <div className='bg'>
               <img
@@ -129,8 +129,8 @@ export default class Responsive extends Component {
               />
             </div>
             <div className='desc'>
-              <div className='name'>Hash Doe</div>
-              <div className='title'>Co-Founder</div>
+              <div className='name'>Architect name</div>
+              <div className='title'>Architect</div>
             </div>
             <div className='icon'>
                <span onClick={()=> window.open("//facebook.com/", "_blank")}>
@@ -144,7 +144,7 @@ export default class Responsive extends Component {
               </span>
             </div>
           </CustomSlide>
-
+/*
           <CustomSlide className='itm' index={4}>
             <div className='bg'>
               <img
